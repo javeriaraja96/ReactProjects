@@ -25,7 +25,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
 //         console.log(e.target.innerText);
 //     }
   return (
-    <main>
+    <>
         {items.length?
         (
             <ItemList 
@@ -53,7 +53,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
         <button onClick={(e) => handleClick3(e)}>
             Click it!
         </button> */}
-    </main>
+    </>
   )
 }
 
